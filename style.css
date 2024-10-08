@@ -230,3 +230,107 @@
 }
 
 /* ======================================================================== */
+
+.make-username-page {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  overflow: hidden;
+  background-image: url(https://c.animaapp.com/7qicUJ2d/img/make-username-page.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.make-username-page .header {
+  position: absolute;
+  width: 1325px;
+  height: 76px;
+  top: 48px;
+  left: 0;
+}
+
+.make-username-page .overlap-group {
+  position: absolute;
+  width: 1475px;
+  height: 1040px;
+  top: -2087px;
+  left: -4668px;
+}
+
+.make-username-page .screenshot {
+  position: absolute;
+  width: 752px;
+  height: 743px;
+  top: 0;
+  left: 617px;
+  object-fit: cover;
+}
+
+.make-username-page .img {
+  position: absolute;
+  width: 1475px;
+  height: 872px;
+  top: 168px;
+  left: 0;
+  object-fit: cover;
+}
+
+.make-username-page .text-wrapper {
+  position: absolute;
+  top: 358px;
+  left: 90px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.make-username-page .overlap {
+  position: absolute;
+  width: 260px;
+  height: 55px;
+  top: 424px;
+  left: 91px;
+  background-color: #eeeeee;
+}
+
+.make-username-page .div {
+  position: absolute;
+  top: 15px;
+  left: 49px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #808080;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.make-username-page .div-wrapper {
+  position: absolute;
+  width: 359px;
+  height: 91px;
+  top: 503px;
+  left: 60px;
+  background-image: url(https://c.animaapp.com/7qicUJ2d/img/rectangle-14.svg);
+  background-size: 100% 100%;
+}
+
+.make-username-page .text-wrapper-2 {
+  position: absolute;
+  width: 241px;
+  top: 23px;
+  left: 63px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* ======================================================================== */
