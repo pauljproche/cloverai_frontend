@@ -334,3 +334,189 @@
 }
 
 /* ======================================================================== */
+
+.API-key-page {
+  position: relative;
+  width: 1783px;
+  height: 1117px;
+  background-color: #ffffff;
+  overflow: hidden;
+  background-image: url(https://c.animaapp.com/sOAmejeW/img/api-key-page.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.API-key-page .overlap {
+  position: absolute;
+  width: 1787px;
+  height: 988px;
+  top: 129px;
+  left: -2px;
+}
+
+.API-key-page .rectangle {
+  position: absolute;
+  width: 538px;
+  height: 77px;
+  top: 182px;
+  left: 274px;
+  background-color: #d9d9d9;
+  border-radius: var(--shape-corner-small);
+}
+
+.API-key-page .div {
+  position: absolute;
+  width: 237px;
+  height: 72px;
+  top: 293px;
+  left: 274px;
+  background-color: #2e3234;
+  border-radius: var(--shape-corner-small);
+}
+
+.API-key-page .text-wrapper {
+  position: absolute;
+  top: 38px;
+  left: 255px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.API-key-page .name-secret-key {
+  position: absolute;
+  top: 190px;
+  left: 293px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.API-key-page .null-null-null-null {
+  position: absolute;
+  top: 226px;
+  left: 302px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.API-key-page .text-wrapper-2 {
+  position: absolute;
+  width: 182px;
+  top: 304px;
+  left: 302px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.API-key-page .text-wrapper-3 {
+  position: absolute;
+  top: 107px;
+  left: 267px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.API-key-page .line {
+  position: absolute;
+  width: 519px;
+  height: 1px;
+  top: 220px;
+  left: 282px;
+  object-fit: cover;
+}
+
+.API-key-page .overlap-group-wrapper {
+  position: absolute;
+  width: 1787px;
+  height: 988px;
+  top: 0;
+  left: 0;
+}
+
+.API-key-page .overlap-group {
+  position: relative;
+  width: 1785px;
+  height: 988px;
+}
+
+.API-key-page .frame {
+  position: absolute;
+  width: 239px;
+  height: 988px;
+  top: 0;
+  left: 0;
+  background-color: #2e3134;
+}
+
+.API-key-page .rectangle-2 {
+  position: absolute;
+  width: 1586px;
+  height: 12px;
+  top: 0;
+  left: 199px;
+  background-color: #2e3234;
+}
+
+.API-key-page .rectangle-3 {
+  position: absolute;
+  width: 197px;
+  height: 54px;
+  top: 28px;
+  left: 16px;
+  background-color: #473aff;
+  border-radius: var(--shape-corner-small);
+}
+
+.API-key-page .text-wrapper-4 {
+  position: absolute;
+  top: 43px;
+  left: 33px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.API-key-page .header {
+  position: absolute;
+  width: 1278px;
+  height: 76px;
+  top: 18px;
+  left: 0;
+}
+
+.API-key-page .screenshot {
+  position: absolute;
+  width: 752px;
+  height: 743px;
+  top: -2021px;
+  left: -8051px;
+  object-fit: cover;
+}
+
+/* ======================================================================== */
