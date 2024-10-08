@@ -1,0 +1,84 @@
+/* General Styles */
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.bg-cover { background-size: cover; background-position: 50% 50%; }
+.text-white { color: #ffffff; }
+.text-black { color: #000000; }
+.font-inter { font-family: "Inter", Helvetica; }
+.font-bold { font-weight: 700; }
+.font-medium { font-weight: 500; }
+.font-regular { font-weight: 400; }
+.font-size-20 { font-size: 20px; }
+.font-size-32 { font-size: 32px; }
+.font-size-48 { font-size: 48px; }
+.font-size-64 { font-size: 64px; }
+.bg-gray { background-color: #d9d9d9; }
+.bg-dark { background-color: #2e3234; }
+.bg-primary { background-color: #3a61ff; }
+.bg-blue { background-color: #1b4ef9; }
+.radius-small { border-radius: var(--shape-corner-small); }
+.radius-extra-small { border-radius: var(--shape-corner-extra-small); }
+.radius-medium { border-radius: var(--shape-corner-medium); }
+
+/* Page Containers */
+.page-container { width: 1728px; height: 1117px; }
+.page-overlap { overflow: hidden; }
+.page-header { width: 1328px; height: 76px; left: 0; }
+
+/* Sign-Up Page */
+.sign-up-page { background-image: url(https://c.animaapp.com/o7zbR3n4/img/sign-up-page.png); }
+.sign-up-page .header { top: 42px; }
+.sign-up-page .overlap-group { top: 563px; left: 75px; width: 555px; height: 91px; background-image: url(https://c.animaapp.com/o7zbR3n4/img/rectangle-14.svg); }
+.sign-up-page .text-wrapper { top: 25px; left: 207px; font-size: 32px; }
+.sign-up-page .div { top: 224px; left: 75px; font-size: 64px; }
+.sign-up-page .rectangle { width: 550px; height: 55px; top: 368px; left: 80px; }
+.sign-up-page .rectangle-2 { width: 554px; height: 55px; top: 462px; left: 75px; }
+.sign-up-page .text-wrapper-2 { top: 334px; left: 80px; }
+.sign-up-page .text-wrapper-3 { top: 431px; left: 80px; }
+.sign-up-page .already-have-an { top: 674px; left: 80px; color: transparent; }
+.sign-up-page .span { color: #000; }
+.sign-up-page .text-wrapper-4 { color: #1b4ef9; }
+
+/* Send Verification Page */
+.send-verification { background-image: url(./img/send-verification-email-page.png); }
+.send-verification .overlap-group { top: 593px; left: 772px; width: 150px; height: 57px; }
+.send-verification .rectangle { top: 0; left: 0; }
+.send-verification .text-wrapper { top: 5px; left: 5px; text-align: center; font-size: 20px; }
+.send-verification .didn-t-receive-it { top: 650px; left: 700px; color: transparent; }
+.send-verification .text-wrapper-2 { color: #3033fe; }
+.send-verification .div { top: 466px; left: 539px; font-size: 48px; }
+.send-verification .p { top: 546px; left: 663px; }
+
+/* Make Username Page */
+.make-username-page { background-image: url(https://c.animaapp.com/7qicUJ2d/img/make-username-page.png); }
+.make-username-page .overlap-group { top: -2087px; left: -4668px; }
+.make-username-page .img { width: 1475px; height: 872px; top: 168px; }
+.make-username-page .text-wrapper { top: 358px; left: 90px; font-size: 34px; }
+.make-username-page .div { top: 15px; left: 49px; }
+
+/* API Key Page */
+.API-key-page { background-image: url(https://c.animaapp.com/sOAmejeW/img/api-key-page.png); }
+.API-key-page .overlap { top: 129px; left: -2px; width: 1787px; height: 988px; }
+.API-key-page .rectangle { width: 538px; height: 77px; top: 182px; left: 274px; }
+.API-key-page .text-wrapper { top: 38px; left: 255px; font-size: 48px; }
+.API-key-page .text-wrapper-3 { top: 107px; left: 267px; font-size: 24px; }
+
+/* User Homepage */
+.user-homepage .overlap-group { top: 536px; left: 874px; width: 191px; height: 61px; }
+.user-homepage .text-wrapper { top: 15px; left: 43px; font-size: 24px; }
+.user-homepage .frame { top: 60px; left: 0; width: 232px; height: 1057px; background-color: #2b3a45; }
+
+/* Login Page */
+.login-page { background-color: #132341; }
+.login-page .overlap-group { top: 654px; left: 562px; width: 620px; height: 91px; background-image: url(https://c.animaapp.com/5TQy9Gky/img/rectangle-14.svg); }
+.login-page .text-wrapper { top: 19px; left: 263px; font-size: 36px; }
+.login-page .rectangle { width: 618px; height: 55px; top: 429px; left: 562px; }
+.login-page .text-wrapper-2 { top: 387px; left: 562px; }
+
+/* Onboarding */
+.new-user-homepage { background-color: #eaeaea; }
+.new-user-homepage .div-wrapper { width: 188px; height: 54px; top: 28px; left: 22px; }
+
+/* Icons & Miscellaneous */
+.icon-cog, .male-user, .img, .screenshot { object-fit: cover; }
