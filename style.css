@@ -679,3 +679,412 @@
   background-color: #ffffff;
   border-radius: var(--shape-corner-small);
 }
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+
+.front-page {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  background-color: #ffffff;
+}
+
+.front-page .overlap {
+  position: absolute;
+  width: 151px;
+  height: 58px;
+  top: 35px;
+  left: 1524px;
+}
+
+.front-page .rectangle {
+  position: absolute;
+  width: 151px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  background-color: #3d82f1;
+  border-radius: var(--shape-corner-small);
+}
+
+.front-page .text-wrapper {
+  position: absolute;
+  width: 124px;
+  top: 6px;
+  left: 27px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.front-page .overlap-group {
+  position: absolute;
+  width: 232px;
+  height: 91px;
+  top: 605px;
+  left: 290px;
+  background-color: #3d61f1;
+  border-radius: 20px;
+}
+
+.front-page .div {
+  position: absolute;
+  top: 19px;
+  left: 49px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.front-page .p {
+  position: absolute;
+  width: 674px;
+  top: 289px;
+  left: 136px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #0800ff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.front-page .img {
+  position: absolute;
+  width: 830px;
+  height: 830px;
+  top: 95px;
+  left: 814px;
+}
+
+.front-page .header {
+  position: absolute;
+  width: 1303px;
+  height: 76px;
+  top: 19px;
+  left: 0;
+}
+
+/* ======================================================================== */
+
+.login-page {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  background-color: #132341;
+}
+
+.login-page .overlap-group {
+  position: absolute;
+  width: 620px;
+  height: 91px;
+  top: 654px;
+  left: 562px;
+  background-image: url(https://c.animaapp.com/5TQy9Gky/img/rectangle-14.svg);
+  background-size: 100% 100%;
+}
+
+.login-page .text-wrapper {
+  position: absolute;
+  top: 19px;
+  left: 263px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .div {
+  position: absolute;
+  top: 175px;
+  left: 796px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .rectangle {
+  top: 429px;
+  position: absolute;
+  width: 618px;
+  height: 55px;
+  left: 562px;
+  background-color: #d9d9d9;
+}
+
+.login-page .rectangle-2 {
+  top: 541px;
+  position: absolute;
+  width: 618px;
+  height: 55px;
+  left: 562px;
+  background-color: #d9d9d9;
+}
+
+.login-page .text-wrapper-2 {
+  position: absolute;
+  top: 387px;
+  left: 562px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login-page .text-wrapper-3 {
+  position: absolute;
+  width: 227px;
+  top: 505px;
+  left: 562px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper-4 {
+  position: absolute;
+  top: 249px;
+  left: 525px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper-5 {
+  position: absolute;
+  top: 780px;
+  left: 643px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login-page .text-wrapper-6 {
+  position: absolute;
+  top: 780px;
+  left: 872px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login-page .ellipse {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 788px;
+  left: 836px;
+  background-color: #d9d9d9;
+  border-radius: 6.5px;
+  mix-blend-mode: color-dodge;
+}
+
+.login-page .header {
+  position: absolute;
+  width: 1311px;
+  height: 76px;
+  top: 33px;
+  left: 0;
+}
+
+
+/* ======================================================================== */
+/* Onboarding */
+
+.new-user-homepage {
+  width: 1728px;
+  height: 1117px;
+  background-color: #eaeaea;
+}
+
+.new-user-homepage .overlap {
+  position: relative;
+  height: 1117px;
+}
+
+.new-user-homepage .overlap-group {
+  position: absolute;
+  width: 1728px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+}
+
+.new-user-homepage .frame {
+  position: absolute;
+  width: 232px;
+  height: 1057px;
+  top: 60px;
+  left: 0;
+  background-color: #2e3134;
+  overflow: hidden;
+}
+
+.new-user-homepage .div-wrapper {
+  position: absolute;
+  width: 188px;
+  height: 54px;
+  top: 28px;
+  left: 22px;
+  background-color: #d9d9d9;
+  border-radius: var(--shape-corner-small);
+}
+
+.new-user-homepage .text-wrapper {
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.new-user-homepage .rectangle {
+  position: absolute;
+  width: 179px;
+  height: 54px;
+  top: -2058px;
+  left: -6518px;
+}
+
+.new-user-homepage .div {
+  position: absolute;
+  width: 1654px;
+  height: 5px;
+  top: 60px;
+  left: 74px;
+  background-color: #2b3a45;
+}
+
+.new-user-homepage .header {
+  position: absolute;
+  width: 1246px;
+  height: 61px;
+  top: 0;
+  left: 0;
+}
+
+.new-user-homepage .rectangle-2 {
+  position: absolute;
+  width: 205px;
+  height: 57px;
+  top: 644px;
+  left: 864px;
+  background-color: #d9d9d9;
+  border-radius: var(--shape-corner-extra-small);
+}
+
+.new-user-homepage .text-wrapper-2 {
+  position: absolute;
+  top: 660px;
+  left: 882px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #1947ef;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.new-user-homepage .img {
+  position: absolute;
+  width: 1495px;
+  height: 1052px;
+  top: 65px;
+  left: 233px;
+}
+
+.new-user-homepage .group {
+  position: absolute;
+  width: 469px;
+  height: 416px;
+  top: 381px;
+  left: 735px;
+}
+
+.new-user-homepage .welcome-to-cloverai-wrapper {
+  position: relative;
+  width: 467px;
+  height: 416px;
+  background-color: #2a2a2d;
+  border-radius: var(--shape-corner-medium);
+}
+
+.new-user-homepage .welcome-to-cloverai {
+  position: absolute;
+  width: 411px;
+  top: 72px;
+  left: 43px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.new-user-homepage .arrow {
+  position: absolute;
+  width: 564px;
+  height: 356px;
+  top: 158px;
+  left: 157px;
+}
+
+.new-user-homepage .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 47px;
+  position: absolute;
+  top: 8px;
+  left: 1563px;
+}
+
+.new-user-homepage .icon-cog {
+  position: relative;
+  width: 32.93px;
+  height: 30px;
+}
+
+.new-user-homepage .male-user {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+/* ======================================================================== */
