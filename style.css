@@ -520,3 +520,162 @@
 }
 
 /* ======================================================================== */
+
+.user-homepage {
+  width: 1718px;
+  height: 1111px;
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+.user-homepage .overlap {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+}
+
+.user-homepage .overlap-group {
+  position: absolute;
+  width: 191px;
+  height: 61px;
+  top: 536px;
+  left: 874px;
+  background-color: #3a61ff;
+  border-radius: var(--shape-corner-small);
+}
+
+.user-homepage .text-wrapper {
+  position: absolute;
+  width: 106px;
+  top: 15px;
+  left: 43px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.user-homepage .div {
+  position: absolute;
+  width: 1728px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+}
+
+.user-homepage .frame {
+  position: absolute;
+  width: 232px;
+  height: 1057px;
+  top: 60px;
+  left: 0;
+  background-color: #2b3a45;
+  overflow: hidden;
+}
+
+.user-homepage .div-wrapper {
+  position: absolute;
+  width: 188px;
+  height: 54px;
+  top: 28px;
+  left: 23px;
+  background-color: #d9d9d9;
+  border-radius: var(--shape-corner-small);
+}
+
+.user-homepage .text-wrapper-2 {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.user-homepage .rectangle {
+  position: absolute;
+  width: 179px;
+  height: 54px;
+  top: -2064px;
+  left: -10379px;
+}
+
+.user-homepage .frame-2 {
+  position: absolute;
+  width: 1654px;
+  height: 5px;
+  top: 60px;
+  left: 74px;
+  background-color: #2b3a45;
+}
+
+.user-homepage .header {
+  position: absolute;
+  width: 1246px;
+  height: 61px;
+  top: 0;
+  left: 0;
+}
+
+.user-homepage .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 47px;
+  position: absolute;
+  top: 8px;
+  left: 1563px;
+}
+
+.user-homepage .icon-cog {
+  position: relative;
+  width: 32.93px;
+  height: 30px;
+}
+
+.user-homepage .male-user {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.user-homepage .rectangle-2 {
+  position: absolute;
+  width: 1346px;
+  height: 313px;
+  top: 186px;
+  left: 297px;
+  background-color: #ffffff;
+  border-radius: var(--shape-corner-small);
+}
+
+.user-homepage .text-wrapper-3 {
+  position: absolute;
+  width: 137px;
+  top: 121px;
+  left: 901px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.user-homepage .rectangle-3 {
+  position: absolute;
+  width: 1346px;
+  height: 413px;
+  top: 635px;
+  left: 297px;
+  background-color: #ffffff;
+  border-radius: var(--shape-corner-small);
+}
