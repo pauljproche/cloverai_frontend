@@ -3,19 +3,49 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <script>
+      // Function to verify login credentials
+      function verifyUser(event) {
+        event.preventDefault();
+        
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        fetch('http://localhost:3000/users') // Replace with your actual PostgREST URL
+          .then(response => response.json())
+          .then(users => {
+            // Check if there is a user with matching email and password
+            const user = users.find(user => user.email === email && user.password_hash === password);
+            if (user) {
+              // Redirect to user homepage if credentials are valid
+              window.location.href = 'user_homepage.html';
+            } else {
+              // Show an error message if credentials are invalid
+              alert('Invalid email or password. Please try again.');
+            }
+          })
+          .catch(error => console.error('Error:', error));
+      }
+    </script>
   </head>
   <body>
     <div class="login-page">
-      <div class="overlap-group">
-        <button type="button" class="text-wrapper" onclick="window.location.href='user_homepage.html';">Login</button>
-      </div>
+      <form onsubmit="verifyUser(event)">
+        <div class="text-wrapper-4">Welcome back!</div>
+        <label class="text-wrapper-2" for="email">Email</label>
+        <input type="email" id="email" class="rectangle" placeholder="Enter your email" required />
+
+        <label class="text-wrapper-3" for="password">Password</label>
+        <input type="password" id="password" class="rectangle-2" placeholder="Enter your password" required />
+
+        <div class="overlap-group">
+          <button type="submit" class="text-wrapper">Login</button>
+        </div>
+      </form>
+      
       <div class="div">Log in.</div>
-      <div class="rectangle"></div>
-      <div class="rectangle-2"></div>
-      <div class="text-wrapper-2">Email</div>
-      <div class="text-wrapper-3">Password</div>
-      <div class="text-wrapper-4">Welcome back!</div>
       <div class="text-wrapper-5">Forgot Password?</div>
       <div class="text-wrapper-6">Sign up for TaskConnect</div>
       <div class="ellipse"></div>
