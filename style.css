@@ -16,7 +16,6 @@
 }
 
 .sign-up-page .overlap-group {
-  background-color: #1b4ef9; 
   position: absolute;
   width: 555px;
   height: 91px;
@@ -27,6 +26,8 @@
 }
 
 .sign-up-page .text-wrapper {
+  background-color: #1b4ef9;
+  border: none;
   position: absolute;
   width: 137px;
   top: 25px;
