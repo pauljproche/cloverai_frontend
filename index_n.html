@@ -23,15 +23,14 @@
           });
       }
 
-      // Add a new user from the sign-up form
       function addUser(event) {
         event.preventDefault();
         
-        // Get form data from the sign-up section
+        // Get form data
         let username = document.getElementById('signup-username').value;
         let email = document.getElementById('signup-email').value;
         let password = document.getElementById('signup-password').value;
-
+      
         // Send a POST request to add the user
         fetch('http://localhost:3000/users', {
           method: 'POST',
@@ -39,15 +38,25 @@
           body: JSON.stringify({ 
             username: username, 
             email: email, 
-            password_hash: password  // Simplified for now
+            password_hash: password // Simplified for now
           })
-        }).then(() => fetchUsers()); // Refresh the user list after adding
+        })
+        /*.then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })*/
+        .then(() => {
+          fetchUsers(); // Refresh the user list after adding
+          
+          // Clear form fields
+          document.getElementById('signup-username').value = '';
+          document.getElementById('signup-email').value = '';
+          document.getElementById('signup-password').value = '';
+        })
+        .catch(error => console.error('Error:', error));
       }
-
-      // Initialize on page load
-      window.onload = function() {
-        fetchUsers();
-      };
     </script>
   </head>
   <body>
