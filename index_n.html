@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management CloverAI</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // Fetch and display users
+      function fetchUsers() {
+        fetch('http://localhost:3000/users') // Replace with your actual PostgREST URL
+          .then(response => response.json())
+          .then(users => {
+            let userList = document.getElementById('userList');
+            userList.innerHTML = '';
+            users.forEach(user => {
+              let li = document.createElement('li');
+              li.textContent = user.username + ' (' + user.email + ')';
+              userList.appendChild(li);
+            });
+          });
+      }
+
+      // Add a new user from the sign-up form
+      function addUser(event) {
+        event.preventDefault();
+        
+        // Get form data from the sign-up section
+        let username = document.getElementById('signup-username').value;
+        let email = document.getElementById('signup-email').value;
+        let password = document.getElementById('signup-password').value;
+
+        // Send a POST request to add the user
+        fetch('http://localhost:3000/users', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            username: username, 
+            email: email, 
+            password_hash: password  // Simplified for now
+          })
+        }).then(() => fetchUsers()); // Refresh the user list after adding
+      }
+
+      // Initialize on page load
+      window.onload = function() {
+        fetchUsers();
+      };
+    </script>
+  </head>
+  <body>
+    <!-- CloverAI Header and Sign-Up Form -->
+    <div class="sign-up-page">
+      <img class="header" src="https://c.animaapp.com/o7zbR3n4/img/header.svg" />
+      <div class="overlap-group">
+        <button type="button" class="text-wrapper" onclick="addUser(event)">Continue</button>
+      </div>
+      <div class="div">Create an account</div>
+      <!-- Add Username, Email, and Password inputs -->
+      <input type="text" id="signup-username" class="rectangle" placeholder="Username" required />
+      <input type="email" id="signup-email" class="rectangle" placeholder="Email" required />
+      <input type="password" id="signup-password" class="rectangle-2" placeholder="Password" required />
+      <p class="already-have-an">
+        <span class="span">Already have an account? </span>
+        <span class="text-wrapper-4">Login</span>
+      </p>
+    </div>
+    
+    <!-- Users List Section -->
+    <div>
+      <h2>Users List</h2>
+      <ul id="userList"></ul>
+    </div>
+  </body>
+</html>
